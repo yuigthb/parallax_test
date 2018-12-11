@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" href="css/base.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <!-- skroller JS-->
+    <script src="js/skrollr.min.js"></script>
+    <title>yui_parallax_test</title>
+    <script>
+        $(function() {
+            skrollr.init();
+        });
+    </script>
+</head>
+
+<body>
+    <header class="uk-nav-header">
+        <div class="uk-section" data-0="display: none;" data-30="display: block;">
+            <h1>Hello!I'm Yui!</h1>
+        </div>
+    </header>
+    <div class="uk-section sticky">
+        <div class="uk-container uk-container-small">
+            <div uk-grid class="uk-grid-small">
+                <div class="uk-width-1-3">
+                    <h2 data-0="opacity: 0; transform: translateX(-50px);" data-200="opacity: 1; transform: translateX(0);"><span uk-icon="code" class="icon"></span>skill</h2>
+                    <div class="uk-progress " data-0="opacity: 0; transform: translateX(-50px);" data-300="opacity: 1; transform: translateX(0);">
+                        <div class="uk-progress-bar " style="width: 50%; ">html/css</div>
+                    </div>
+                    <div class="uk-progress " data-0="opacity: 0; transform: translateX(-50px);" data-300="opacity: 1; transform: translateX(0);">
+                        <div class="uk-progress-bar " style="width: 60%; ">php</div>
+                    </div>
+                    <div class="uk-progress " data-0="opacity: 0; transform: translateX(-50px);" data-300="opacity: 1; transform: translateX(0);">
+                        <div class="uk-progress-bar " style="width: 60%; ">JavaScript</div>
+                    </div>
+                    <div class="uk-progress " data-0="opacity: 0; transform: translateX(-50px);" data-300="opacity: 1; transform: translateX(0);">
+                        <div class="uk-progress-bar " style="width: 20%; ">Ruby</div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3 ">
+
+                </div>
+                <div class="uk-width-1-3">
+                    <h2 data-0="opacity: 0; transform: translateX(50px);" data-200="opacity: 1; transform: translateX(0);"><span uk-icon="heart" class="icon"></span>love</h2>
+                    <ul class="uk-list uk-list-line " data-0="opacity: 0; transform: translateX(50px);" data-300="opacity: 1; transform: translateX(0);">
+                        <li>Short hair girl</li>
+                        <li>Strawberry flavored gum</li>
+                        <li>TV game</li>
+                        <li>Programing</li>
+                        <li>Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="uk-container uk-container-small center" data-0="transform:rotateZ(0deg);" data-200="transform:rotateZ(180deg);" data-500="transform:rotateZ(360deg);">
+            <img src="image/front_20181208_210647.png " style="width:40%; height: auto; ">
+        </div>
+        <div class="uk-container uk-container-small">
+            <div class="uk-width-1-3">
+                <h2 data-0="opacity: 0; transform: translateX(50px);" data-700="opacity: 1; transform: translateX(0);"><span uk-icon="heart" class="laptop"></span>Job</h2>
+                <ul class="uk-list uk-list-line " data-0="opacity: 0; transform: translateX(50px);" data-800="opacity: 1; transform: translateX(0);">
+                    <li>Programmer</li>
+                </ul>
+            </div>
+            <div class="uk-width-1-3" data-0="display: none;" data-500="display: block;">
+                <p>> Thank you! And Follow me!</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
